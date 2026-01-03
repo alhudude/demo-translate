@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DemoTranslate</title>
+
+<style>
+body {
+font-family: "Comic Sans MS", "Comic Sans", cursive:
+margin: 30px;
+}
+textarea {
+width: 100%;
+height: 120px;
+}
+</style> 
+
+</head>
+<body>
+
+<h1>DemoTranslate</h1>
+
+<p>Enter text to translate</p>
+
+<textarea id="textToTranslate"></textarea>
+
+<br><br>
+<button onclick="translate()">Translate</button>
+
+<ol id="output"></ol>
+
+<script>
+function translate() {
+    // Your DemoTranslate logic goes here
+}
+</script>
+
+</body>
+</html>
